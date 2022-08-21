@@ -1,5 +1,5 @@
 import { render } from '@testing-library/react'
-import Component1 from "../components/Components1"
+import Component1 from '../components/Component1'
 
 test('Component1 renders', () => {
   // destructure container out of render result
