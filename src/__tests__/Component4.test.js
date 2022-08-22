@@ -5,7 +5,7 @@ test('Component4 renders', () => {
   
   render(<Component4 />)
   const input = screen.getByLabelText('Favorite Movie')
-  const title = screen.getByRole('heading', { level: 3 })
+  const title = screen.getByRole('heading', { level: 4 })
 
   // we already used .toBeInTheDocument(), this is jest-dom
   expect(input).toBeInTheDocument()

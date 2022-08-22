@@ -4,7 +4,7 @@ function Component4(){
   const [ value, setValue ] = useState('Wall-E')
   return(
     <div className="Component4">
-      <h3>Component 4</h3>
+      <h4>Component 4</h4>
       <label htmlFor="movie">Favorite Movie</label>
       <input 
         id="movie"
