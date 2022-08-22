@@ -1,7 +1,7 @@
-import { useState } from "react"
+import { useState } from 'react'
 
 function Component4(){
-  const [ value, setValue ] = useState("Wall-E")
+  const [ value, setValue ] = useState('Wall-E')
   return(
     <div className="Component4">
       <h3>Component 4</h3>
